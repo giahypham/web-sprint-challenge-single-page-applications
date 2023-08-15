@@ -112,6 +112,7 @@ return (
 
             <input
                 id="order-button"
+                type="submit"
                 value="Add to Order"
             />
         </form>

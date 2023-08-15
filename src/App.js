@@ -41,7 +41,7 @@ const Home = () => {
 const App = () => {
   const [formValues, setFormValues] = useState(initialFormValues)
   const [formErrors, setFormErrors] = useState(initialFormErrors)
-  const [orders, setOrders] = useState({})
+  const [orders, setOrders] = useState([])
 
   const handleSubmit = () => {
     axios.post(`https://reqres.in/api/orders`, formValues)
